@@ -1,4 +1,7 @@
 # This is a readme file
 #
 #
-# Spencer Pollock
+# Spencer 
+
+
+I want to add new changes too!
