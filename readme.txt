@@ -1,4 +1,9 @@
 # This is a readme file
 #
 #
-# Spencer Pollock
+# Not the author:  Spencer Pollock
+#
+#
+# Author: Bill Gates
+#
+#
