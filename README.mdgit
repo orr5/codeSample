@@ -1,8 +1,5 @@
-# codeSample  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/orr5/codeSample.gitgit push -u origin master
+#  This is a blank README file
 #
-#  This is a README File.
-#  
-# Author: some comp2910 students
 #
 # I am starting a brand new branch today for featureX!
 #
