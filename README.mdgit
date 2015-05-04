@@ -1,6 +1,2 @@
-# codeSample  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/orr5/codeSample.gitgit push -u origin master
-#
-#  This is a README File.
-#  
-# Author: some comp2910 student 
+#  This is a blank README file
 #
