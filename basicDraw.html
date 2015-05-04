@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/main.css">
+    <!-- load javascript files -->
+    <script type="text/javascript" src="js/detectScreenSize.js" ></script>
+    <script type="text/javascript" src="js/drawOnCanvas.js" ></script>
+    <script type="text/javascript" src="js/dragAndDrop.js" ></script>
+
+</head>
+
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<p>This is HTML5 Basic Draw examples.</p>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<div>
+    <!-- canvas object -->
+    <canvas id="myCanvas" width="400" height="200" style="border:1px solid #00ff00;">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+</div>
+<ul>
+    <li><button type="button" onclick="drawCircle()">Click to draw a circle</button></li>
+    <li><button type="button" onclick="drawImage()">Click to draw an image</button></li>
+    <li><button type="button" onclick="drawText()">Click to draw text</button></li>
+    <li><button type="button" id="butAnimate" onclick="startAnimation(this,'Click to start animation','Click to stop animation')" value="Click to start animation">Click to start animation</button></li>
+
+</ul>
+
+<p>Image to use:</p>
+<div id="divDrop2" ondrop="drop(event)" ondragover="allowDrop(event)" style="width:100px;height:70px;padding:10px;border:1px solid #0000ff;">
+<img id="enot" src="img/enot.gif" alt="Image to draw" draggable="true"
+     ondragstart="drag(event)" width="60" height="60">
+</div>
+<p>Drag and drop (drag and drop image in the second container. Will not work on mobile devices)</p>
+<div id="divDrop" ondrop="drop(event)" ondragover="allowDrop(event)" style="width:100px;height:70px;padding:10px;border:1px solid #0000ff;"></div>
+</body>
+</html>
+

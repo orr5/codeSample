@@ -1,0 +1,3 @@
+# codeSample  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/orr5/codeSample.gitgit push -u origin master
+# codeSample  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/orr5/codeSample.git git push -u origin master
+# codeSample  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/orr5/codeSample.git git push -u origin master
